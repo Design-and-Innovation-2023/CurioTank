@@ -14,11 +14,16 @@
         
         <!-- linking css file -->
         <link rel="stylesheet" href="style.css">
+
+        <style>
+            img {
+              width: 50%;
+              height: auto;
+            }
+        </style>
     </head>
     <body>
         <!-- navbar -->
-        <!-- https://getbootstrap.com/docs/5.3/components/navbar/ -->
-        
         <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
             <div class="container">
                 <a class="navbar-brand" href="#" id="navBrand">Team 10A</a>
@@ -40,29 +45,396 @@
                             <a class="nav-link" id="nav-link-reflection" href="reflection.html">Reflections</a>
                         </li>
                     </ul>
-                    
                 </div>
             </div>
         </nav>
 
-        <!-- about section-->
-        <section id="week1">
+        <!-- reflection section with tabs-->
+        <section id="reflection">
             <div class="container mt-4 pt-4">
-                <h1 class="text-center">Week 1 reflection</h1>
-                <div class="row mt-4">
-                    <div class="col">
-                        <video width="600" height="500" controls>
-                            <source src="Team10A_week1_presentation.mp4" type="video/mp4">
+                <h1 class="text-center">Reflections</h1>
+
+                <!-- tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="weekly-tab" data-bs-toggle="tab" href="#weekly">Weekly Video Pitches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="daily-tab" data-bs-toggle="tab" href="#daily">Daily Reflections</a>
+                    </li>
+                </ul>
+
+                <!-- tab content -->
+                <div class="tab-content mt-4">
+                    <div class="tab-pane fade show active" id="weekly">
+                        <!-- Weekly Video Pitches content here -->
+                        <h2>Week 1 reflection</h2>
+                        <video width="600" height="350" controls>
+                            <source src="images/Team10A_week1_presentation.mp4" type="video/mp4">
+                        </video>
+                        <br>
+                        <br>
+                        <h2>Week 2 reflection</h2>
+                        <video width="600" height="350" controls>
+                            <source src="images/Team10A_week2_presentation.mp4" type="video/mp4">
                         </video>
                     </div>
+                    <div class="tab-pane fade" id="daily">
+                        <!-- Daily Reflections content here -->
+<h2>July 18, 2023</h2>
+<p>
+<pre>
+Today is the first day, we have met the client (The prof), gathered requirements, clarified questions and we have also picked up the supplies we require for the project. 
+Additionally, we had crafted out our team contract as well.
 
-                    
+These are the questions we asked:
+1. What challenges have you faced while teaching or learning programming? How do you think Curio could potentially address these challenges?
+2. In the past, what constraints have you encountered that have limited your ability to teach or learn programming?
+3. Who usually uses Curio? Have you received any feedback about it from different types of users?
+4. What specific issues have you encountered with the Curio robot's hardware?
+5. Can you describe a specific instance where Curio helped you or someone you know learn about web development, UI/UX design, or AI/ML?
+6. Could you share an instance where you or another user struggled with the design of the robot?
+7. Can you share any experiences or observations on how the project sharing feature has been used in a learning environment?
+8. Can you describe some specific improvements you would like to see in the Curio robot based on your past experiences with it?
+9. In your experience, have there been any other tools or devices used alongside the Curio robot that have enhanced the learning experience?
+10. Can you share how you've seen the Curio robot being used across different courses or modules?
+11. Have you faced any compatibility issues with different operating systems while using the Curio platform?
+12. Could you share a specific story about a time when you felt the Curio robot was particularly useful or frustrating?
+13. Can you describe a memorable interaction that a student or teacher had with the Curio platform?
+14. Have you ever had to choose a different tool or platform over Curio due to its cost?
+15. In your experience, how does Curio compare to similar platforms like poppy-project.org or openbot.org?
+16. Can you tell me about a time when understanding the Espruino project or the Smartibot platform was essential for using Curio?
+17. Have you encountered a situation where Curio could have been useful outside the intended user group or educational level?
+</pre>
+</p>
+
+<h2>July 19, 2023</h2>
+<p>
+<pre>
+Lessons:
+Today, we learn about how does sharing problems and providing feedback help us learn as it encourages more collaboration over competitiveness. It also give the team a better understanding of what the clients want.
+
+Project:
+Today we research more about what the Smartibot can do and how it works. We have also found past projects to gain inspiration on the improved design.
+
+Tomorrow, we plan to come up with a few sketches for the prototype design and further research on how we can use the Smartibot to make lessons engaging to students.
+</pre>
+</p>
+
+<h2>July 20, 2023</h2>
+<p>
+<pre>
+Project:
+Today we brainstorm possible ways to use smartibot to make teaching engaging. Here are some of our ideas.
+
+1. AI Drawing Bot: Use artificial intelligence for the bot the learn and draw pictures
+2. AI Race Cource: Use artificial intelligence to study and navigate around the course and race to see which team is the fastest.
+3. AI Football: Use artificial intelligence to challenge teams in a robot football match
+4. Obstacle Course: Use artificial intelligence to study and navigate a course and see which robot can navigate the most optimal way.
+5. Paddle Boat Race: Create a AI paddle boat that is able to navigate the river and compete to see who is the fastest.
+<img src="images\Dailies\20Jul_1.jpg">
+We have also identified some limitations of the smartibot. It does not have an area to secure the phone, the initial way was to tie a rubber band around it. We decided to change one of the pieces to allow the phone to be placed without the use of rubber bands.
+
+Sketches:
+<img src="images\Dailies\20Jul_2.jpg">
+
+<img src="images\Dailies\20Jul_3.jpg">
+
+<img src="images\Dailies\20Jul_4.jpg">
+
+<img src="images\Dailies\20Jul_5.jpg">
+
+<img src="images\Dailies\20Jul_6.jpeg">
+
+<img src="images\Dailies\20Jul_7.jpeg">
+
+<img src="images\Dailies\20Jul_8.jpg">
+
+Prototype V1:
+Before:
+<img src="images\Dailies\20Jul_9.jpg">
+
+After:
+<img src="images\Dailies\20Jul_10.jpg">
+
+Experiment:
+With phone
+<img src="images\Dailies\20Jul_11.gif">
+</pre>
+</p>
+
+<h2>July 21, 2023</h2>
+<p>
+<pre>
+We today realise that we were going off track, we were too focus on how we make the lessons engaging instead of designing the Curio bot and we focus more on improving the Smartibot instead of the Curio.
+We immediately rectify by meeting the client and clarify our doubts. After the meeting we managed to get everyone aligned and draft a suitable markup of the prototype.
+
+Prototype:
+<img src="images\Dailies\21Jul_1.jpeg">
+
+<img src="images\Dailies\21Jul_2.jpg">
+
+<img src="images\Dailies\21Jul_3.jpeg">
+
+<img src="images\Dailies\21Jul_4.jpeg">
+
+<img src="images\Dailies\21Jul_5.jpeg">
+
+<img src="images\Dailies\21Jul_6.jpg">
+
+<img src="images\Dailies\21Jul_7.jpeg">
+
+<img src="images\Dailies\21Jul_8.jpeg">
+
+After today, we have a first hand experience on why aligning with everyone in the team and 
+the customer is important as it saves time and effect in creating prototype and the final product.
+</pre>
+</p>
+
+<h2>July 24, 2023</h2>
+<p>
+<pre>
+Today, we manage to design new prototypes by combining ideas from the previous 3D model and also ideas provided by other teams.
+
+3D model (Tank):
+For this design we got the inspiration from a real life tank. Basically, we allow user to rotate the top 
+base to help them orientate the bot, so it does not matter which side of the bot is the front. The bot 
+would be able to rotate using servos which will fit to the teeth shape groves below.
+
+<img src="images\Dailies\24Jul_1.jpg">
+
+<img src="images\Dailies\24Jul_2.jpeg">
+
+<img src="images\Dailies\24Jul_3.jpg">
+
+<img src="images\Dailies\24Jul_4.jpg">
+
+<img src="images\Dailies\24Jul_5.jpeg">
+
+Reliant Robin:
+For this design, we asked group 9 about their proposal idea to draw inspiration for our design. They 
+were planning to create quizes and make the bots race. So we design one where it has car-like 
+shape. We based the design of the reliant robin as it is an iconic vehicle in the UK. We also can 
+save cost on material by making 2 wheels instead of 4.
+
+<img src="images\Dailies\24Jul_6.jpg">
+
+<img src="images\Dailies\24Jul_7.jpg">
+
+<img src="images\Dailies\24Jul_8.jpeg">
+
+Inspirations:
+<img src="images\Dailies\24Jul_9.jpeg">
+
+<img src="images\Dailies\24Jul_10.jpeg">
+
+Prototype:
+We also manage to do up a working prototype of the Reliant Robin design. Although there are a 
+few kinks to fix like if the phone is place at the back it will be back heavy, motors will come loose 
+and most parts are glued so not a lot of ways to dismentle.
+
+<img src="images\Dailies\24Jul_11.jpg">
+
+<img src="images\Dailies\24Jul_12.jpg">
+
+<img src="images\Dailies\24Jul_13.jpg">
+
+<img src="images\Dailies\24Jul_14.jpg">
+
+<img src="images\Dailies\24Jul_15.jpg">
+
+Reliant Robin Robot Prototype Youtube Link: https://www.youtube.com/watch?v=CstkYicz3vo&ab_channel=nicholaspoh
+<video width="320" height="240" controls>
+    <source src="images\Dailies\24Jul_16.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+
+Tomorrow, we plan to continue working on the prototype for the tank design and improving the current prototype.
+</pre>
+</p>
+
+<h2>July 25, 2023</h2>
+<p>
+<pre>
+Today we managed to improve the Reliant Robin Prototype to move smoother and carry phones by 
+adding the tyres from Curio and adding some toothpicks at the back to act as a skeleton. There are 
+still some limitations, such as it can only support lighter phone and heavier phones will topple if 
+move at a fast speed and it's not able to change the angle of the phone.
+
+<img src="images\Dailies\25Jul_1.jpg">
+
+<img src="images\Dailies\25Jul_2.jpg">
+
+<img src="images\Dailies\25Jul_3.gif">
+
+We have also created a rotating base for the “Tank” design to withstand the weight of the phone
+and rotate with it. We decided to use only 1 servo to rotate as the previous method using grove did
+not work well. The limitations we notice for now is that it can only rotate up to 180 degrees.
+
+<img src="images\Dailies\25Jul_4.jpeg">
+
+<img src="images\Dailies\25Jul_5.gif">
+
+Tomorrow, we will continue working on the Tank Model and try to improve on the reliant robin model.
+</pre>
+</p>
+
+<h2>July 26, 2023</h2>
+<p>
+<pre>
+We added some new features to the Tank design, after conducting a few testing, we realize that the 
+phone adjusting system does not have support to prevent the phone from toppling over so we 
+decided to add stoppers at the back to prevent the phone from falling. We also added an adjustable 
+stick to make the phone at a fixed angle.
+
+<img src="images\Dailies\26Jul_1.jpg">
+
+<img src="images\Dailies\26Jul_2.jpg">
+
+<img src="images\Dailies\26Jul_3.jpg">
+
+<img src="images\Dailies\26Jul_4.jpg">
+
+<img src="images\Dailies\26Jul_5.jpg">
+
+For the prototype We finished creating the base and the wheels, so tomorrow we will assemble all
+the parts together and conduct an initial test. We feel that we could do more today, however, there
+are limitations in the glue gun provided as it only has a work time of 30 minutes and it cannot be
+used while charging. But it was not much of a problem as we continued working on the other
+deliverables like the website while waiting to charge.
+
+<img src="images\Dailies\26Jul_6.jpg">
+
+<img src="images\Dailies\26Jul_7.jpg">
+
+<img src="images\Dailies\26Jul_8.jpg">
+
+<img src="images\Dailies\26Jul_9.jpg">
+
+<img src="images\Dailies\26Jul_10.jpg">
+
+<img src="images\Dailies\26Jul_11.gif">
+
+We also emailed Gordon Williams, the main designer of Curio yesterday to organise a meeting to
+give us possible feedback and better understand his thinking process and constraints he faced.
+Currently waiting for a reply.
+</pre>
+</p>
+
+<h2>July 27, 2023</h2>
+<p>
+<pre>
+Had a group meeting with Gordon Williams the creator of the original Curio bot. We manage to
+learn about his thinking process in creating Curio and the constraints he faced and how he use this
+constraints to his advantage.
+
+<img src="images\Dailies\27Jul_1.jpg">
+
+Here is a summary of what was mentioned in the meeting.
+
+    1. Stepper motor is the most cost-efficient to get the result he wants since precision is the goal
+
+    2. Constraints : being able to tilt the robot in various angles
+
+    3. A lot of the stuff being done is still experimental
+
+    4. Would be beneficial if parts are easily assembled and detachable, it takes a while to assemble the entire robot.
+
+    5. Trying to keep the material cost down to something sensible
+       for example servo motors with the electronic magnet are not practical as they cost 2/3 of the entire cost making sure the wheels and the back wheel are always in stock.
+
+       trying to keep the material used simple, might consider implementing 3d printing , consider using plastic for the wheel.
+
+    6. Another weak point would be the phone stand. (Very floppy)
+
+    7. Keep it to a reasonably small amount of parts
+
+    8. It is nice to have modularity as most universities are able to 3d print it
+
+    9. Curio does have a control board and it is not possible to get the user to make a new control board from scratch, so focus of robot main constraints are the hardware (specifically motor)
+
+Designer Feedback for team 10A prototypes:
+
+    1. Appreciates the rotation of the 2nd prototype as that facing.so his consideration but advise to ensure the wheels are rotatable in the direction that the camera is facing
+    
+    2. Reinstate to have easier alternative to tilt the angle of the phone which the team plans to overcome using servo motors to automate angle positioning of the phone
+    
+    3. When using 3 wheels, need a steering wheel(ball bearing)
+    
+Designer Feedback for team 10B prototypes:
+    
+    1. Could consider using a stepper motor rather than DC(smartibot) to aid with the precision.
+    
+    2. He likes the versality aspect of the design and having the students to assemble to their liking rather than sending an assembled bot which might be damaged in transit.
+    
+    3. He likes the clamp design and does not have a use case when designing curio, we should think about our use case and work towards it
+    
+    4. Initially he did not have a use case so the advice was to have a use case to work on the problems, e.g., if speed is something we are working on then focus on that direction such as point 2.
+    
+Prototype
+After the meeting we finish up the tank prototype and redesigned it base on Gordon's feedback.
+
+<img src="images\Dailies\27Jul_2.jpg">
+
+<img src="images\Dailies\27Jul_3.jpg">
+
+<img src="images\Dailies\27Jul_4.jpeg">
+
+<img src="images\Dailies\27Jul_5.jpeg">
+
+<img src="images\Dailies\27Jul_6.jpg">
+
+<img src="images\Dailies\27Jul_7.jpg">
+
+<img src="images\Dailies\27Jul_8.jpg">
+
+<img src="images\Dailies\27Jul_9.jpg">
+
+<img src="images\Dailies\27Jul_10.jpg">
+
+<img src="images\Dailies\27Jul_11.gif">
+
+tomorrow we plan to improve on the prototype and conduct testing.
+</pre>
+</p>
+
+<h2>July 28, 2023</h2>
+<p>
+<pre>
+In today's lecture, we learned about how to conduct proper usability testing, to learn more about
+what issues users faced when using the product. Our team plans to conduct it next week however
+we are having a bit of trouble thinking of Task Scenarios since our project is mainly about creating
+the robot. We were thinking maybe we can set up an obstacle course to see how the users feel
+when controlling the bot.
+
+For the prototype, we manage to finish it up by adding the 1 side servos to allow the phone mount
+to adjust the angle remotely. However, we realize 1 servo is not enough to lift the phone back up if
+tilted down so for now we tested with a power bank.
+
+<img src="images\Dailies\28Jul_1.jpeg">
+
+<img src="images\Dailies\28Jul_2.jpg">
+
+Prototype 2: Tank Bot Youtube Link: https://youtu.be/P_HKXjgrBxU
+<video width="320" height="240" controls>
+    <source src="images\Dailies\28Jul_3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+On Monday, we will try adding additional servo on the other side and start conducting usability tests 
+with some of our fellow classmates.
+
+</pre>
+</p>
+
+
+                    </div>
                 </div>
+            </div>
         </section>
 
-       
         <!-- load javascript after loading all html content -->
         <script src="script/script.js"></script>
-        
     </body>
 </html>
